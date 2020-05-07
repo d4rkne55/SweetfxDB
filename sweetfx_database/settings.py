@@ -214,7 +214,7 @@ LOGIN_REDIRECT_URL = '/games/'
 
 AUTH_PROFILE_MODULE = 'users.UserProfile'
 
-DATETIME_FORMAT="j M H:i T"
+DATETIME_FORMAT="j M Y, H:i T"
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
