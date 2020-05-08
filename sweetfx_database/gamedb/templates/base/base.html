@@ -5,9 +5,9 @@
     {% if user.is_authenticated and user.userprofile.css %}
         <link rel="stylesheet" href="{{ user.userprofile.css }}" />
     {% else %}
-        <link rel="stylesheet" href="{{ CSSURL}}" />
+        <link rel="stylesheet" href="{{ CSSURL }}" />
     {% endif %}
-    <link rel="shortcut icon" href="/static/logo.png" />
+    <link rel="shortcut icon" href="{{ STATIC_URL }}logo.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     {%block head%}{% endblock %}
 </head>

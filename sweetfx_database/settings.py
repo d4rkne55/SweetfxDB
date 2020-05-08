@@ -169,6 +169,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 "sweetfx_database.users.context_processors.set_style",
                 "django.template.context_processors.media",
+                "django.template.context_processors.static",
             ],
         },
     },
